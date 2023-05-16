@@ -1,0 +1,455 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    margin: 0; padding: 0;
+}
+
+ /* navbar start */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    width: 100%; height: 65px;
+}
+.navbar .nav-logo{
+    float: left;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+.navbar .nav-logo a{
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+.navbar .nav-menu{
+    float: right;
+    margin-right: 100px;
+    margin-top: 6px;
+}
+.navbar .nav-menu a{
+    font-size: 15px;
+    text-decoration: none;
+    color: red;
+    padding-right: 20px;
+    text-transform: capitalize;
+}
+.navbar .nav-menu a:hover{
+    color: black;
+}
+
+/* navbar end */
+/* home start */
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; height: 600px;
+    background-color: rgba(255, 0, 0, 0.8);
+}
+.home .home-abt{
+    float: left;
+    margin-left: 150px;
+}
+.home-abt h1{
+    font-size: 40px;
+    margin: 5px;
+    color: black;
+}
+.home-abt p{
+    font-size: 20px;
+    margin: 5px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.home-abt h3{
+    font-size: 25px;
+    margin: 5px;
+    color: #333;
+}
+.home-abt input{
+    font-size: 15px;
+    background-color: white;
+    padding: 8px 20px 8px 20px;
+    color: red;
+    border: 2px solid white;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+.home-abt input:hover{
+    background-color: transparent;
+    color: white;
+}
+.home-img img{
+    height: auto; width: 600px;
+}
+
+/* home end */
+/* about start */
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 100%;
+    height: 800px;
+}
+.about-img{
+    float: left;
+}
+.about-img img{
+    width: 730px;
+    height: auto;
+}
+.about-sec{
+    float: right;
+    margin-right: 100px;
+    width: 40%;
+}
+.about-sec .about-text p{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #EF233C;
+}
+.about-sec .about-text h2{
+    font-size: 23px;
+    text-transform: capitalize;
+}
+.about-sec .about-para p{
+    font-size: 14px;
+    text-align: justify;
+}
+.about-sec .col-lg-6,
+.about-sec .col-lg-5{
+    background-color:#f0f8ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    padding: 25px;
+    margin-top: 20px;
+}
+.about-sec .col-lg-6:hover,
+.about-sec .col-lg-5:hover{
+    background-color: rgba(255, 0, 0, 0.7);
+    color: #fff;
+}
+.about-sec .col-lg-6 p{
+    margin: 5px;
+    font-size: 15px;
+    color: #000;
+}
+.about-sec .col-lg-5 p{
+    margin: 5px;
+    font-size: 15px;
+    color: #000;
+}
+/* about end */
+/* skill start */
+
+.skill{
+    position: relative;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 400px;
+    padding: 45px 0 15px 0;
+}
+.skill .title h1{
+    font-size: 30px;
+    text-align: center;
+    color: #EF233C;
+}
+.skill .row{
+    margin-top: 50px;
+}
+.skill h2{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.skill i{
+    position: relative;
+    width: 100px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #EF233C;
+    background: #ffffff;
+    font-size: 60px;
+}
+.skill .col-lg-4 {
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 0 transparent;
+    transition: ease-out 0.5s;
+}
+.skill .col-lg-4:hover {
+    box-shadow: inset 700px 0 0 0 #EF233C;
+    padding-left: 0;
+    color: #fff;
+}
+
+/* service end */
+/* price start */
+
+.price{
+    background-color: transparent;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+.price .heading {
+	margin-top: 50px;
+}
+.price .heading h1{
+	font-size: 30px;
+	line-height: 0;
+    text-align: center;
+	margin-top: 50px;
+	color: #EF233C;
+}
+.price .price-data{
+	width: 75%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+    margin-top: 100px;
+}
+.price .price-list{
+	width: 200px;
+	height: 325px;
+	background-color: whitesmoke;
+	text-align: center;
+    padding: 20px;
+}
+.price .price-list h1{
+	font-size: 30px;
+	padding-top: 5px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.price .price-list h3 {
+	font-size: 20px;
+}
+.price-list h2{
+    font-size: 25px;
+}
+.price-list p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.price .price-list input {
+    font-size: 15px;
+    background-color: red;
+    padding: 8px 20px 8px 20px;
+    color: white;
+    margin-top: 20px;
+    border: 2px solid red;
+}
+.price .price-list:hover{
+	color: red;
+}
+.price .price-list input:hover{
+	background-color: transparent;
+    color: red;
+}
+
+/* price end */
+/* blog start */
+.blog{
+    width: 100%;
+    height: 750px;
+    align-items: center;
+}
+.blog h1{
+    font-size: 30px;
+    color: #EF233C;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#art{
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 10px
+}
+#blog-1{
+    width: 100%;
+    height: 300px;
+}
+#blog-2{
+    width: 100%;
+    height: 200px;
+}
+.blog .row{
+    margin-bottom: 50px;
+}
+.blog p{
+    font-size: 15px;
+    color: #414141;
+    text-align: justify;
+}
+.blog .col-lg-4, .blog .col-lg-6{
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    padding: 25px;
+}
+
+/* blog end */
+/* contract start */
+
+.contract{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; height: 500px;
+    background-color: red;
+}
+.contract .contract-img{
+    float: left;
+}
+.contract .contract-img img{
+    width: 600px;
+    height: 400px;
+    margin-left: 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+.contract .contract-form{
+    float: right;
+    width: 30%;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.contract #cnt{
+    font-size: 18px;
+    color: white;
+}
+.contract #name, #email, #message{
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 0;
+    background: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    margin-top: 10px;
+}
+.contract #submit{
+    font-size: 15px;
+    background-color: white;
+    padding: 8px 20px 8px 20px;
+    color: red;
+    border: 2px solid white;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.contract #submit:hover{
+    background-color: transparent;
+    color: white;
+}
+
+/* contract end */
+/* footer start */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; height: 300px;
+    background-color: whitesmoke;
+}
+.footer-main{
+    margin-top: 50px;
+}
+.footer-abt h1{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+.footer-abt h3{
+    font-size: 23px;
+    text-align: center;
+    color: black;
+}
+.footer-cnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-cnt p{
+    margin: 0;
+    font-size: 20px;
+    padding: 0 25px;
+    border-right: 2px solid rgba(0, 0, 0, 0.6);
+}
+.footer-cnt p:last-child{
+    border: none;
+}
+footer .copyright {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer .copyright::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 1px;
+    top: 0;
+    left: 25%;
+    background: rgba(0, 0, 0, .2);
+}
+
+footer .copyright p {
+    margin: 0;
+    color: black;
+}
+
+footer .copyright p {
+    text-align: right;
+}
+
+footer .copyright p a {
+    color: black;
+    font-weight: 600;
+}
+
+footer .copyright p a:hover {
+    color: #414141;
+}
+.social-links {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #EF233C;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    background-color: #1a1a1a;
+  }
+/* footer end */
